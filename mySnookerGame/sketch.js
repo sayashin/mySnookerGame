@@ -150,6 +150,8 @@ function displayOptions() {
   fill(255);
   textAlign(CENTER, CENTER);
   textSize(16);
+  text("Make "click" on the semi-circle to active the white ball", width / 2, height / 8);
+  text("Make "click" on the white ball to activate stick", width / 2, (height / 8)*7);
   text("Press 1 for standard snooker", width / 2, height / 5);
   text("Press 2 for random red balls", width / 2, (height / 5) * 2);
   text("Press 3 for all random balls", width / 2, (height / 5) * 3);
